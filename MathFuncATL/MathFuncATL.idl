@@ -1,0 +1,18 @@
+// MathFuncATL.idl : IDL source for MathFuncATL
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (MathFuncATL.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	uuid(4CF339B5-EA84-4245-9F94-64B85521F6BF),
+	version(1.0),
+]
+library MathFuncATLLib
+{
+	importlib("stdole2.tlb");
+};
+
